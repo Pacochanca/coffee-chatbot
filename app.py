@@ -29,7 +29,7 @@ def 回答查詢(user_input, history):
     history.append({"role": "assistant", "content": reply})
     return reply
 
-st.title("Toyota Ottawa店 客服機器人 🚗")
+st.title("Toyota Ottawa店 客服 🚗")
 
 if "history" not in st.session_state:
     st.session_state.history = []
